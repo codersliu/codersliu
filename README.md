@@ -59,17 +59,17 @@ Here are some ideas to get you started:
       <td width="23%" align="center">
        <a href="https://www.zhihu.com/people/carraysliu">知乎</a>
        <br><br><br>
-       技术文章
+       经验分享
      </td>
      <td width="23%" align="center">
        <a href="https://scholar.google.com/citations?user=7DX13loAAAAJ&hl=en">学术</a>
       <br><br><br>
-       开源游戏
+       学术交流
      </td>
       <td width="23%" align="center">
        <a href="https://www.facebook.com/profile.php?id=100047943871708">Facebook</a>
        <br><br><br>
-       爬坑日记
+       日常生活
      </td>
     </tr>
   </tbody>
