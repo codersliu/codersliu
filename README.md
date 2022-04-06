@@ -46,7 +46,7 @@ Here are some ideas to get you started:
 - 💼 &nbsp; 但是你的到来会使这里变得更加有趣。
 - 🌱 &nbsp; 既然已经来了，请不要吝啬你手里的Star。
 - ✍️ &nbsp; Fork到自己的仓库，否则你可能会失去它。
-- ☕ &nbsp; 既然来了，就是你我有缘，联系我交朋友。 
+- ☕ &nbsp; 交流技术&生活，联系我交朋友。 
 
 <table>
   <tbody>
