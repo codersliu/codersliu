@@ -40,13 +40,13 @@ Here are some ideas to get you started:
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="450"/>
 
-- 🔭 &nbsp; 大家好，我是codersliu。
-- 🤔 &nbsp; 非常欢迎你来访问我的Github。
-- 🎓 &nbsp; 尽管这里可能并没有你需要的项目。
-- 💼 &nbsp; 但是你的到来会使这里变得更加有趣。
-- 🌱 &nbsp; 既然已经来了，请不要吝啬你手里的Star。
-- ✍️ &nbsp; Fork到自己的仓库，否则你可能会失去它。
-- ☕ &nbsp; 交流技术&生活，联系我交朋友。 
+- 🔭 &nbsp; Hi, there is codersliu
+- 🤔 &nbsp; Welcome to my Github
+- 🎓 &nbsp; Maybe there is not what you find
+- 💼 &nbsp; But really pleasuer for you coming
+- 🌱 &nbsp; If there is something useful for you
+- ✍️ &nbsp; You can fork it to yourselves repository
+- ☕ &nbsp; 交流技术&生活，联系我交朋
 
 <table>
   <tbody>
