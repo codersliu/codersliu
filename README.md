@@ -44,7 +44,7 @@ Here are some ideas to get you started:
   <tbody>
     <tr valign="top">
       <td width="23%" align="center">
-       <a href="https://shunliu.xyz">博客</a>
+       <a href="https://codersliu.github.io/">博客</a>
        <br><br><br>
        记录知识
       </td>
