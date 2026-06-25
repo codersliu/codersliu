@@ -42,11 +42,6 @@ Here are some ideas to get you started:
 
 - 🔭 &nbsp; Hi, there is codersliu
 - 🤔 &nbsp; Welcome to my Github
-- 🎓 &nbsp; Maybe there is not what you find
-- 💼 &nbsp; But really pleasuer for you coming
-- 🌱 &nbsp; If there is something useful for you
-- ✍️ &nbsp; You can fork it to yourselves repository
-- ☕ &nbsp; 交流技术&生活，联系我交朋
 
 <table>
   <tbody>
@@ -56,21 +51,10 @@ Here are some ideas to get you started:
        <br><br><br>
        记录知识
       </td>
-      <td width="23%" align="center">
-       <a href="https://www.zhihu.com/people/carraysliu">知乎</a>
-       <br><br><br>
-       经验分享
-     </td>
      <td width="23%" align="center">
        <a href="https://scholar.google.com/citations?user=7DX13loAAAAJ&hl=en">学术</a>
       <br><br><br>
        学术交流
-     </td>
-      <td width="23%" align="center">
-       <a href="https://www.facebook.com/profile.php?id=100047943871708">Facebook</a>
-       <br><br><br>
-       日常生活
-     </td>
     </tr>
   </tbody>
 </table>
