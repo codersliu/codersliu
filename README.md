@@ -34,9 +34,6 @@ Here are some ideas to get you started:
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=codersliu&repo=springboot04-jdbcLearning&theme=tokyonight" />
 </a>
 </p>
-<p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=codersliu&theme=redical">
-</p>
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="450"/>
 
@@ -61,7 +58,6 @@ Here are some ideas to get you started:
 
 <p align = "center">
   <img align = "left" src = "https://github-readme-streak-stats.herokuapp.com/?user=codersliu&theme=tokyonight" width="45%">
-  <img align = "right" src = "https://github-profile-trophy.vercel.app/?username=codersliu&theme=tokyonight" width="50%" >
 </p>
 
 <br><br><br><br>
