@@ -62,25 +62,20 @@
 
 ## 📊 GitHub Stats
 
+<!--
+  下面这张图由本仓库的 GitHub Action (.github/workflows/metrics.yml) 每天自动生成并提交，
+  是仓库里的本地静态文件，由 GitHub 直接托管 —— 不依赖任何第三方实时服务，永不裂图。
+-->
 <div align="center">
 
-<img
-  height="165"
-  src="https://github-readme-stats.vercel.app/api?username=codersliu&show_icons=true&hide_border=true&theme=tokyonight&icon_color=7AA2F7&title_color=7AA2F7&count_private=true"
-  alt="github stats"
-/>
-<img
-  height="165"
-  src="https://github-readme-streak-stats.herokuapp.com/?user=codersliu&hide_border=true&theme=tokyonight&ring=7AA2F7&fire=7AA2F7&currStreakLabel=7AA2F7"
-  alt="github streak"
-/>
+<img src="./github-metrics.svg" alt="github metrics" width="80%" />
 
 <br/>
 
 <img
   height="165"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=codersliu&layout=compact&hide_border=true&theme=tokyonight&title_color=7AA2F7&langs_count=8"
-  alt="top languages"
+  src="https://streak-stats.demolab.com/?user=codersliu&hide_border=true&theme=tokyonight&ring=7AA2F7&fire=7AA2F7&currStreakLabel=7AA2F7"
+  alt="github streak"
 />
 
 <br/><br/>
@@ -88,7 +83,7 @@
 <img
   src="https://github-readme-activity-graph.vercel.app/graph?username=codersliu&theme=tokyo-night&hide_border=true&color=7AA2F7&line=7AA2F7&point=ffffff&area=true"
   alt="activity graph"
-  width="95%"
+  width="90%"
 />
 
 </div>
@@ -97,25 +92,12 @@
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/codersliu/clouddoc-draw">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codersliu&repo=clouddoc-draw&hide_border=true&theme=tokyonight&title_color=7AA2F7" alt="clouddoc-draw" />
-</a>
-<a href="https://github.com/codersliu/ppt-editor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codersliu&repo=ppt-editor&hide_border=true&theme=tokyonight&title_color=7AA2F7" alt="ppt-editor" />
-</a>
-
-<br/>
-
-<a href="https://github.com/codersliu/clouddoc-pdf2pptx">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codersliu&repo=clouddoc-pdf2pptx&hide_border=true&theme=tokyonight&title_color=7AA2F7" alt="clouddoc-pdf2pptx" />
-</a>
-<a href="https://github.com/codersliu/codersliu.github.io">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codersliu&repo=codersliu.github.io&hide_border=true&theme=tokyonight&title_color=7AA2F7" alt="blog" />
-</a>
-
-</div>
+| 项目 | 简介 | 技术 |
+|------|------|------|
+| **[clouddoc-draw](https://github.com/codersliu/clouddoc-draw)** | 严格三步执行的 draw.io 图形生成与在线文档导入编排 Skill（含箭头几何避障与自动绕行） | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **[ppt-editor](https://github.com/codersliu/ppt-editor)** | Image / PDF / 扫描版 PPT → 对象级可编辑 PPTX，内置 docling OCR 文本提示后端 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **[clouddoc-pdf2pptx](https://github.com/codersliu/clouddoc-pdf2pptx)** | 云文档 PDF 转 PPTX 转换工具 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **[codersliu.github.io](https://github.com/codersliu/codersliu.github.io)** | 我的个人博客 · [在线访问](https://codersliu.github.io) | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
 
 <br/>
 
