@@ -24,7 +24,7 @@
 
 ## 🧑‍💻 About Me
 
-- 🔭 目前在做 **Agent Harness -- 文档智能处理工具链**（draw.io 编排、PDF / PPT 结构化转换）
+- 🔭 目前在做 **Agent Harness -- 文档智能处理工具链**
 - 🌱 深入方向：**Spring Boot 生态、系统设计、云原生**
 - 💬 可以和我聊 **Java / Python / 后端架构 / 数据库**
 - 🌐 我的博客： **[codersliu.github.io](https://codersliu.github.io)**
