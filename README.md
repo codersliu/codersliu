@@ -63,17 +63,6 @@
 - 提供检索与上下文策略对照实验，以及独立的只读 MCP 文档工具服务。
 
 `Python / React` · `LangGraph` · `Retrieval & evaluation` · `Human review`
-<details>
-<summary><strong>更多独立实现：桌面工作台与文档工具</strong></summary>
-
-| 项目 | 解决的问题 |
-| :--- | :--- |
-| **Agent Workbench** | 以任务为中心的桌面工作台，首个纵向切片包含计划、审批、本地文件操作、取消与崩溃恢复；默认使用 Mock Runtime。 |
-| **clouddoc-draw** | draw.io 图形生成与在线文档导入编排 Skill，处理箭头避障与自动绕行。 |
-| **ppt-editor** | 将图片、PDF、扫描版 PPT 转为对象级可编辑 PPTX，使用 docling OCR 提供文本提示。 |
-| **clouddoc-pdf2pptx** | 云文档 PDF 到 PPTX 的转换工具。 |
-
-</details>
 
 <a id="engineering"></a>
 
