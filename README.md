@@ -8,7 +8,7 @@
 
 **Agent 工程 / AI 开发工具 / 文档智能**
 
-我构建让 AI 完成实际任务的工具：发现与调用工具、在明确边界内执行、保留过程证据，并让结果可审阅、可恢复。下面的个人项目由我独立实现；同时，我也参与 **WorkClaw（xclaw）** 的开发。
+构建让 AI 完成实际任务的工具：发现与调用工具、在明确边界内执行、保留过程证据，并让结果可审阅、可恢复。
 
 [项目作品](#selected-work) · [参与贡献](#collaboration) · [工程关注点](#engineering) · [博客](https://codersliu.github.io) · [邮件联系](mailto:liushunforever@aliyun.com)
 
@@ -16,11 +16,9 @@
 
 ## 01 / Selected work
 
-这些项目目前为私有仓库。这里展示能力摘要与实现边界；如需交流实现细节，可通过邮件联系。
-
 ### Agent Harness
 
-**本地优先的 Windows 桌面智能体执行框架** · 独立实现
+**本地优先的 Windows 桌面智能体执行框架**
 
 把本机工具发现、技能学习和受控执行接成完整任务流程。
 
@@ -32,7 +30,7 @@
 
 ### ForgeX
 
-**围绕 LLM 构建的编程 Agent 运行时** · 独立实现
+**围绕 LLM 构建的编程 Agent 运行时**
 
 把“分析代码 → 修改代码 → 运行测试 → 输出证据”落到有边界的执行循环。
 
@@ -44,7 +42,7 @@
 
 ### Review Desk
 
-**自动代码评审工作台** · 独立实现
+**自动代码评审工作台**
 
 围绕代码版本、证据和评审意见，连接任务发现、模型检视、复核与发布。
 
@@ -54,11 +52,9 @@
 
 `Python` · `Code review` · `Evidence verification` · `Recoverable jobs`
 
-<sub>已实现本地与模拟平台验证；真实企业环境联调仍待验收。</sub>
-
 ### Atlas · Document Task Agent
 
-**带来源证据与人工审阅的文档任务 Agent** · 独立实现
+**带来源证据与人工审阅的文档任务 Agent**
 
 用自建示例资料，探索从检索、起草到批准和保存的完整文档任务。
 
@@ -67,9 +63,6 @@
 - 提供检索与上下文策略对照实验，以及独立的只读 MCP 文档工具服务。
 
 `Python / React` · `LangGraph` · `Retrieval & evaluation` · `Human review`
-
-<sub>个人演示项目，当前为实现候选版；真实模型答案质量与 Windows 实机验收仍在进行。</sub>
-
 <details>
 <summary><strong>更多独立实现：桌面工作台与文档工具</strong></summary>
 
@@ -82,21 +75,9 @@
 
 </details>
 
-<a id="collaboration"></a>
-
-## 02 / Collaboration
-
-### WorkClaw / xclaw · 参与开发
-
-我参与的 AI Agent 工作台项目，以任务和专家为中心，支持流式交互、技能扩展、MCP 服务与多实例部署。
-
-项目技术栈：`Python / FastAPI` · `React` · `deepagents / LangGraph`
-
-<sub>这是团队项目；以上为项目能力概述，不将全部功能归为个人贡献。</sub>
-
 <a id="engineering"></a>
 
-## 03 / Engineering focus
+## 02 / Engineering focus
 
 | 关注点 | 项目中的具体实践 |
 | :--- | :--- |
@@ -105,7 +86,7 @@
 | **验证与证据** | 测试门禁、代码证据、引用来源、覆盖范围与评测记录。 |
 | **可用的产品界面** | 桌面工作台、流式时间线、差异审阅与任务产物。 |
 
-后端工程是我的基础：**Python / Java / C#**，以及 **Spring Boot、数据库与服务设计**。我把这些能力用于 Agent 的运行时、工具接入和任务交付。
+后端工程基础：**Python / Java / C#**，以及 **Spring Boot、数据库与服务设计**。把这些能力用于 Agent 的运行时、工具接入和任务交付。
 
 ---
 
