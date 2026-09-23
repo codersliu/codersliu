@@ -1,125 +1,113 @@
-<!--
-  GitHub Profile README  ·  codersliu (Shun Liu)
-  本文件显示在 https://github.com/codersliu 主页顶部。
--->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Shun Liu / codersliu — Agent Engineering · 从模型能力到可执行、可验证的任务" src="./assets/hero-light.svg" width="100%">
+</picture>
 
-<a name="top"></a>
+# Shun Liu
 
-<div align="center">
+**Agent 工程 / AI 开发工具 / 文档智能**
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=7AA2F7&center=true&vCenter=true&width=580&lines=Hi%2C+I'm+Shun+Liu+%F0%9F%91%8B;Backend+Engineer+%C2%B7+Java+%2F+Spring+Boot;Building+document-AI+tooling+in+Python"
-  alt="typing banner"
-/>
+我构建让 AI 完成实际任务的工具：发现与调用工具、在明确边界内执行、保留过程证据，并让结果可审阅、可恢复。下面的个人项目由我独立实现；同时，我也参与 **WorkClaw（xclaw）** 的开发。
 
-<p><em>专注后端与文档智能处理 · 把复杂问题拆成可靠的服务</em></p>
+[项目作品](#selected-work) · [参与贡献](#collaboration) · [工程关注点](#engineering) · [博客](https://codersliu.github.io) · [邮件联系](mailto:liushunforever@aliyun.com)
 
-<img src="https://komarev.com/ghpvc/?username=codersliu&label=Profile%20views&color=7AA2F7&style=flat" alt="profile views" />
-&nbsp;
-<a href="https://github.com/codersliu?tab=followers">
-  <img src="https://img.shields.io/github/followers/codersliu?label=Followers&style=flat&color=7AA2F7" alt="followers" />
-</a>
+<a id="selected-work"></a>
 
-</div>
+## 01 / Selected work
 
-## 🧑‍💻 About Me
+这些项目目前为私有仓库。这里展示能力摘要与实现边界；如需交流实现细节，可通过邮件联系。
 
-- 🔭 目前在做 **Agent Harness -- 文档智能处理工具链**
-- 🌱 深入方向：**Spring Boot 生态、系统设计、云原生**
-- 💬 可以和我聊 **Java / Python / 后端架构 / 数据库**
-- 🌐 我的博客： **[codersliu.github.io](https://codersliu.github.io)**
-- 📫 联系我： **liushunforever@aliyun.com**
-- ⚡ 一句话： *Talk is cheap. Show me the code.*
+### Agent Harness
 
-<br/>
+**本地优先的 Windows 桌面智能体执行框架** · 独立实现
 
-## 🛠️ Tech Stack
+把本机工具发现、技能学习和受控执行接成完整任务流程。
 
-**Languages**
+- 发现 CLI / MCP 能力，将验证过的工具编译为类型化技能；通过环境指纹复用探测结果。
+- 以策略引擎、能力令牌与人工审批约束动作，使用 Windows Sandbox 隔离执行。
+- 提供任务时间线、变更审阅、Shadow Git 快照与任务状态持久化。
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+`C# / WinUI 3` · `Tool discovery` · `MCP` · `Sandbox`
 
-**Backend & Frameworks**
+### ForgeX
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-C74634?style=for-the-badge&logo=mybatis&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+**围绕 LLM 构建的编程 Agent 运行时** · 独立实现
 
-**Databases & Infra**
+把“分析代码 → 修改代码 → 运行测试 → 输出证据”落到有边界的执行循环。
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- 实现模型与工具循环、类型化工具调用、运行预算、停止规则与执行轨迹。
+- 在隔离的任务目录中修改代码，输出结构化 diff、测试日志与最终报告。
+- 最新修改通过测试后才允许报告成功；当前版本聚焦仓库分析与受限编码任务。
 
-<br/>
+`Python` · `Agent loop` · `Workspace isolation` · `Test gates`
 
-## 📊 GitHub Stats
+### Review Desk
 
-<!--
-  下面这张图由本仓库的 GitHub Action (.github/workflows/metrics.yml) 每天自动生成并提交，
-  是仓库里的本地静态文件，由 GitHub 直接托管 —— 不依赖任何第三方实时服务，永不裂图。
--->
-<div align="center">
+**自动代码评审工作台** · 独立实现
 
-<img src="./github-metrics.svg" alt="github metrics" width="80%" />
+围绕代码版本、证据和评审意见，连接任务发现、模型检视、复核与发布。
 
-<br/>
+- 面向 Python / Java，按变更风险选择检视路径，复核代码证据与 diff 行号。
+- 固定代码快照，记录覆盖范围、误报反馈、执行过程与可复用检查点。
+- 发布前核对版本；写入结果不明时先核查远端状态，避免盲目重复发送。
 
-<img
-  height="165"
-  src="https://streak-stats.demolab.com/?user=codersliu&hide_border=true&theme=tokyonight&ring=7AA2F7&fire=7AA2F7&currStreakLabel=7AA2F7"
-  alt="github streak"
-/>
+`Python` · `Code review` · `Evidence verification` · `Recoverable jobs`
 
-<br/><br/>
+<sub>已实现本地与模拟平台验证；真实企业环境联调仍待验收。</sub>
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=codersliu&theme=tokyo-night&hide_border=true&color=7AA2F7&line=7AA2F7&point=ffffff&area=true"
-  alt="activity graph"
-  width="90%"
-/>
+### Atlas · Document Task Agent
 
-</div>
+**带来源证据与人工审阅的文档任务 Agent** · 独立实现
 
-<br/>
+用自建示例资料，探索从检索、起草到批准和保存的完整文档任务。
 
-## 🚀 Featured Projects
+- 基于 LangGraph 编排工具调用与审阅中断，保留来源片段和文档版本。
+- 将审批绑定到固定版本；写入响应丢失时核查原操作，避免重复写入。
+- 提供检索与上下文策略对照实验，以及独立的只读 MCP 文档工具服务。
 
-| 项目 | 简介 | 技术 |
-|------|------|------|
-| **[clouddoc-draw](https://github.com/codersliu/clouddoc-draw)** | 严格三步执行的 draw.io 图形生成与在线文档导入编排 Skill（含箭头几何避障与自动绕行） | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **[ppt-editor](https://github.com/codersliu/ppt-editor)** | Image / PDF / 扫描版 PPT → 对象级可编辑 PPTX，内置 docling OCR 文本提示后端 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **[clouddoc-pdf2pptx](https://github.com/codersliu/clouddoc-pdf2pptx)** | 云文档 PDF 转 PPTX 转换工具 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **[codersliu.github.io](https://github.com/codersliu/codersliu.github.io)** | 我的个人博客 · [在线访问](https://codersliu.github.io) | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
+`Python / React` · `LangGraph` · `Retrieval & evaluation` · `Human review`
 
-<br/>
+<sub>个人演示项目，当前为实现候选版；真实模型答案质量与 Windows 实机验收仍在进行。</sub>
 
-## 🤝 Connect with Me
+<details>
+<summary><strong>更多独立实现：桌面工作台与文档工具</strong></summary>
 
-<div align="center">
+| 项目 | 解决的问题 |
+| :--- | :--- |
+| **Agent Workbench** | 以任务为中心的桌面工作台，首个纵向切片包含计划、审批、本地文件操作、取消与崩溃恢复；默认使用 Mock Runtime。 |
+| **clouddoc-draw** | draw.io 图形生成与在线文档导入编排 Skill，处理箭头避障与自动绕行。 |
+| **ppt-editor** | 将图片、PDF、扫描版 PPT 转为对象级可编辑 PPTX，使用 docling OCR 提供文本提示。 |
+| **clouddoc-pdf2pptx** | 云文档 PDF 到 PPTX 的转换工具。 |
 
-<a href="mailto:liushunforever@aliyun.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" />
-</a>
-<a href="https://codersliu.github.io">
-  <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=rss&logoColor=white" alt="blog" />
-</a>
-<a href="https://github.com/codersliu">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
-</a>
+</details>
 
-</div>
+<a id="collaboration"></a>
 
-<br/>
+## 02 / Collaboration
 
-<div align="center">
-  <sub>⭐ 如果我的项目对你有帮助，欢迎点个 star ·
-  <a href="#top">回到顶部</a></sub>
-</div>
+### WorkClaw / xclaw · 参与开发
+
+我参与的 AI Agent 工作台项目，以任务和专家为中心，支持流式交互、技能扩展、MCP 服务与多实例部署。
+
+项目技术栈：`Python / FastAPI` · `React` · `deepagents / LangGraph`
+
+<sub>这是团队项目；以上为项目能力概述，不将全部功能归为个人贡献。</sub>
+
+<a id="engineering"></a>
+
+## 03 / Engineering focus
+
+| 关注点 | 项目中的具体实践 |
+| :--- | :--- |
+| **工具与执行边界** | 类型化动作、路径约束、审批机制与沙箱隔离。 |
+| **状态与恢复** | 持久化任务、执行检查点、取消流程与结果不明时的核查。 |
+| **验证与证据** | 测试门禁、代码证据、引用来源、覆盖范围与评测记录。 |
+| **可用的产品界面** | 桌面工作台、流式时间线、差异审阅与任务产物。 |
+
+后端工程是我的基础：**Python / Java / C#**，以及 **Spring Boot、数据库与服务设计**。我把这些能力用于 Agent 的运行时、工具接入和任务交付。
+
+---
+
+**交流 Agent 工程、开发工具与文档 AI**<br>
+[liushunforever@aliyun.com](mailto:liushunforever@aliyun.com) · [个人博客](https://codersliu.github.io)
