@@ -10,7 +10,7 @@
 
 构建让 AI 完成实际任务的工具：发现与调用工具、在明确边界内执行、保留过程证据，并让结果可审阅、可恢复。
 
-[项目作品](#selected-work) · [参与贡献](#collaboration) · [工程关注点](#engineering) · [博客](https://codersliu.github.io) · [邮件联系](mailto:liushunforever@aliyun.com)
+[项目作品](#selected-work) · [工程关注点](#engineering) · [博客](https://codersliu.github.io) · [邮件联系](mailto:liushunforever@aliyun.com)
 
 <a id="selected-work"></a>
 
